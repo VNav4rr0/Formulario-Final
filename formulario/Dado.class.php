@@ -1,0 +1,42 @@
+<?php 
+class Dado{
+
+    private $nome, $telefone, $origem, $data, $obs;
+
+
+    public function getNome(){
+        return $this-> nome;
+    }
+    public function setNome($nome){
+        $this->nome = $nome;
+    }
+
+    public function getTelefone(){
+        return $this-> telefone;
+    }
+    public function setTelefone($telefone){
+        $this->telefone = $telefone;
+    }
+
+    public function getOrigem(){
+        return $this-> origem;
+    }
+    public function setOrigem($origem){
+        $this->origem = $origem;
+    }
+
+    public function getData(){
+        return $this-> data;
+    }
+    public function setData($data){
+        $this->data = $data;
+    }
+
+    public function getObs(){
+        return $this-> obs;
+    }
+    public function setObs($obs){
+        $this->obs = $obs;
+    }
+}
+?>
